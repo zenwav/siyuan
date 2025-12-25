@@ -95,7 +95,7 @@ ${genSVGBG()}
    <input class="b3-text-field fn__block b3-form__icon-input" style="padding-right: 44px;" placeholder="${window.siyuan.languages.activationCodePlaceholder}">
    <button id="activationCode" class="b3-button b3-button--text" style="position: absolute;right: 0;top: 0;">${window.siyuan.languages.confirm}</button>
 </div>`;
-            if (window.siyuan.user.userSiYuanProExpireTime === -1) {
+            if (true /*window.siyuan.user.userSiYuanProExpireTime === -1*/) {
                 // 终身会员
                 activeSubscriptionHTML = "";
                 subscriptionHTML = `<div class="b3-chip b3-chip--secondary">${Constants.SIYUAN_IMAGE_VIP}${window.siyuan.languages.account12}</div>`;
