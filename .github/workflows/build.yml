@@ -1,4 +1,4 @@
-name: CD For SiYuan
+name: Build SiYuan
 
 on:
   workflow_dispatch:
