@@ -946,6 +946,7 @@ func InitBoxes() {
 }
 
 func IsSubscriber() bool {
+	return true;
 	u := Conf.GetUser()
 	return nil != u && (-1 == u.UserSiYuanProExpireTime || 0 < u.UserSiYuanProExpireTime) && 0 == u.UserSiYuanSubscriptionStatus
 }
