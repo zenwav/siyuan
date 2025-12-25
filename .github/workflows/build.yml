@@ -32,8 +32,8 @@ jobs:
       - id: thisLatestRelease
         uses: pozetroninc/github-action-get-latest-release@master
         with:
-          # owner: siyuan-note
-          # repo: siyuan
+          owner: siyuan-note
+          repo: siyuan
           repository: ${{ github.repository }}
           token: ${{ secrets.GITHUB_TOKEN }}
           excludes: prerelease, draft
